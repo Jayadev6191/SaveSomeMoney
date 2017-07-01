@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+#sss_registration {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 200px 1fr 200px;
+  grid-row-start: 2;
+}
+
+#sss_registration form {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+#sss_registration label {
+  color:#FFFFFF;
+}
+
+
+#sss_registration .btn.btn-info{
+  outline: none;
+  border-color: #73576A;
+}

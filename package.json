@@ -1,0 +1,23 @@
+{
+  "name": "sss",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "next"
+  },
+  "devDependencies": {
+    "auth0-lock": "^10.18.0",
+    "classnames": "^2.2.5",
+    "lokka": "^1.7.0",
+    "lokka-transport-http": "^1.6.1",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,69 @@
+body {
+  /*background-color: #9A24AD;*/
+  background-color: #000000;
+}
+
+.App {
+  display: grid;
+  justify-content: center;
+}
+.App-header {
+  font-family: 'Bad Script', cursive;
+  margin-top: 5rem;
+  font-size: 10rem;
+  color: #FFFFFF;
+}
+
+.App-header .coin {
+  background-color:
+}
+
+
+.App-body {
+  display: grid;
+  justify-content: center;
+  margin-top: 5rem;
+  padding:5rem 0;
+}
+.sss_form {
+  min-width: 25rem;
+  margin-top: 5rem;
+}
+.selection_option {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #FFFFFF;
+}
+
+.selection_option div {
+  padding:1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selection_option div.active{
+  background-color: gold;
+  color:#FFFFFF;
+}
+.selection_option div:first-child {
+  border-right:1px solid #000000;
+}
+
+.selection_form {
+  min-height: 500px;
+}
+
+.sss-btn{
+  background-color: gold !important;
+  color:#FFFFFF;
+}
+
+.App-header{
+	font-size: 10rem;
+	font-family: 'Bad Script', cursive;
+	font-weight:bold;
+	color:gold;
+	left:50%;
+ 	top:40%;
+	text-shadow:0 5px 3px rgba(0,0,0,0.5);
+}
